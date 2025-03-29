@@ -15,8 +15,9 @@
     if ($bmi < 18.5) {
         $category = "Underweight 
         $risk = "(Low risk)";
-    } elseif ($bmi >= 18.5 && $bmi <= 24.9) {
+    } elseif ($bmi >= 18.9 && $bmi <= 26.9) {
         $category = "Normal range 
+         
 (Average risk)";
     } elseif ($bmi >= 25.0 && $bmi <= 29.9) {
         $category = "Overweight 
